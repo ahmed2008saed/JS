@@ -1,13 +1,12 @@
 let num = 0
-    , h1 = `<h1 id="demo">0</h1>`
-    , buttonA = `<button onclick="ahmed()">+</button>`
-    , buttonM = `<button onclick="mody()">-</button>`;
+    , html = `
+            <h1 id="demo">0</h1>
+            <button onclick="ahmed()">+</button>
+            <button onclick="mody()">-</button>`;
 
 
 
-document.write(h1);
-document.write(buttonA);
-document.write(buttonM);
+document.write(html);
 
 
 function ahmed() {
